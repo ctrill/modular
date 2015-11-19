@@ -1,0 +1,61 @@
+* {margin: 0;
+   padding: 0;
+}
+
+article, aside, header, footer, nav {
+ display: block; 
+}
+
+body {
+padding: 3rem;
+ float: left;
+ max-width:  18%;
+ min-width:  18%;
+}
+
+.link { 
+ text-decoration: none;
+}
+
+body ul li {
+  list-style-type: none; 
+}
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+  } 
+/* hmm tried to add gray background to stars, but couldn't figure it out.  check that out later */
+
+p {
+  font-style: 10px;
+  font-family: 'Istok Web';
+}
+.title:hover {
+    text-decoration: underline;
+}
+.price .onsale { 
+  color: #900; 
+  font-family: 'Inconsolata';
+}
+.old-price {
+    color: black; 
+    text-decoration: line-through;
+    font-family: 'Inconsolata'
+}
+
+.savings {
+ font-family: 'Inconsolata' ;
+  padding-bottom: .5rem;
+}
+
+/* need to set this apart */
+
+button {
+  font-family: 'Istok Web';
+  font-style: 7px;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  padding: .25rem .5rem; 
+}
